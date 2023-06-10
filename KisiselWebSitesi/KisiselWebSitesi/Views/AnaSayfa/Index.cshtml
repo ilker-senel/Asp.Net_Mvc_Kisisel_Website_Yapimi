@@ -1,0 +1,55 @@
+﻿@using KisiselWebSitesi.Models.Siniflar
+@model List<AnaSayfa>
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitesi</title>
+    @* <link rel="stylesheet" type="text/css" href="~/WebKisiselSite/reset.css">*@
+    <link rel="stylesheet" href="~/WebKisiselSite/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+       
+            @*<div class="center">
+
+                <div class="avatar">
+                    @foreach (var x in Model)
+                    {
+                        <img src="@x.Profil">
+                    }
+
+                </div>
+
+                <div class="content">
+                    @foreach (var item in Model)
+                    {
+                        {
+                            item.Aciklama = item.Aciklama.Replace("\n", "<br>");
+                        }
+                        <h1>@item.Isim</h1>
+                        <h2>@item.Unvan</h2>
+                        <p>
+                            @Html.Raw(item.Aciklama)
+                        </p>
+                        <h3>@item.Iletisim</h3>
+                    }
+
+                </div>
+                @Html.Action("Ikonlar", "AnaSayfa")
+            </div>*@
+       
+    
+
+</body>
+
+</html>
+
+
