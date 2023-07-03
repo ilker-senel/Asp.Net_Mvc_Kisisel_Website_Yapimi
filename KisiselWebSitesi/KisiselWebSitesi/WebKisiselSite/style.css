@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    background-image: url(images/arkaFontFoto.jpg);
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center .avatar img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 4%;
+}
+
+
+
+.center {
+    width: 650px;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 700px;
+    text-align: center;
+    border-radius: 10px;
+  
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    color: wheat;
+}
+
+.content h2,
+p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 85%;
+    margin: 8px auto;
+}
+
+
+.content h3 {
+    margin-top: 17px;
+}
+
+div .social i {
+    padding: 0 10px;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.4s;
+}
+
+    div .social i:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+@media screen and (max-width:700px) {
+    .center {
+        width: 300px;
+        height: 600px;
+    }
+
+    h1 {
+        font-size: 19px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    p {
+        width: 90%;
+        font-size: 11px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    .social a i {
+        font-size: 33px;
+    }
+
+    div .social i {
+        padding: 0 6px;
+    }
+}
